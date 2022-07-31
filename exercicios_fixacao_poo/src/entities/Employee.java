@@ -10,7 +10,7 @@ public class Employee {
 		return grossSalary - tax;
 	}
 	public double IncreaseSalary(double percentage) {
-		 this.grossSalary = grossSalary + ((grossSalary * percentage) / 100);
+		 this.grossSalary += ((grossSalary * percentage) / 100);
 		 return grossSalary - tax;
 	}
 }
